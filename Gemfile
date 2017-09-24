@@ -56,6 +56,10 @@ gem 'sucker_punch', '~> 2.0'
 gem 'octokit'
 gem 'twitter'
 
+# Time zones
+gem 'tzinfo-data'
+gem 'tzinfo'
+
 group :production do
   gem 'rails_12factor'
 end

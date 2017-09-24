@@ -301,6 +301,8 @@ GEM
       simple_oauth (~> 0.3.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2017.2)
+      tzinfo (>= 1.0.0)
     uglifier (3.1.9)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
@@ -348,10 +350,12 @@ DEPENDENCIES
   test-unit (~> 3.0)
   therubyracer
   twitter
+  tzinfo
+  tzinfo-data
   uglifier (>= 1.0.3)
 
 RUBY VERSION
    ruby 2.3.3p222
 
 BUNDLED WITH
-   1.14.6
+   1.15.4
